@@ -1,0 +1,104 @@
+ * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.8;
+    background: linear-gradient(135deg, #f8faf5 0%, #eef2e6 100%);
+    color: #2d3a1f;
+    min-height: 100vh;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.8em;
+    color: #4a5d23;
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .subtitle {
+    text-align: center;
+    color: #6b7c52;
+    font-size: 1.1em;
+    margin-bottom: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .full-width {
+    width: 100%;
+    padding: 35px 40px;
+    background: linear-gradient(145deg, #e8f0d8 0%, #dce8c8 100%);
+    border-radius: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 6px 20px rgba(74, 93, 35, 0.12);
+    border-left: 5px solid #6b8e23;
+  }
+  .full-width.alt {
+    background: linear-gradient(145deg, #f0f5e8 0%, #e5edd8 100%);
+    border-left-color: #8ba648;
+  }
+  h2 {
+    color: #3d4f1f;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+  }
+  h3 {
+    color: #4a5d23;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.35em;
+    font-weight: 600;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 1.05em;
+    color: #445530;
+  }
+  .section {
+    width: 100%;
+    margin-bottom: 50px;
+    overflow: auto;
+  }
+  .section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    width: 48%;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(74, 93, 35, 0.1);
+    background: linear-gradient(180deg, #ffffff 0%, #fafcf7 100%);
+    border-top: 4px solid #8ba648;
+  }
+  .column p {
+    color: #556b2f;
+    font-size: 0.98em;
+    margin-bottom: 20px;
+  }
+  .column p:last-child { margin-bottom: 0; }
+  .left {
+    float: left;
+    margin-right: 4%;
+  }
+  .right {
+    float: right;
+  }
+  .image-placeholder {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(145deg, #d4e1b0 0%, #c5d6a0 100%);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4a5d23;
+    font-weight: 600;
+    font-size: 1.1em;
+    border: 2px dashed #8ba648;
+  }
